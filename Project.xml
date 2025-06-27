@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': JS Engine" file="JSEngine" packageName="com.JordanSantiago.JSengine" package="com.JordanSantiago.JSengine" main="Main" version="0.3.0" company="JordanSantiago" />
+	<app title="Prism's Generic Bambi Mod" file="pgbm" packageName="com.prismGT.PGBM" package="com.prismGT.PGBM" main="Main" version="0.3.0" company="prismGT" />
 	<app preloader="flixel.system.FlxPreloader" />
 
 	<!-- ____________________________ Window Settings ___________________________ -->
@@ -33,7 +33,6 @@
 	<define name="MODS_ALLOWED" if="desktop || mobile" unless="web" />
 	<define name="LUA_ALLOWED" if="desktop || mobile" unless="web" />
 	<define name="ACHIEVEMENTS_ALLOWED" />
-	<define name="APRIL_FOOLS" /> <!-- DELETE THIS TO REMOVE THE APRIL FOOLS START UP, WHICH ONLY HAPPENS ONLY ON APRIL 1st -->
 	<define name="VIDEOS_ALLOWED" if="desktop || mobile" unless="32bits || web"/>
 	<define name="PSYCH_WATERMARKS"/> <!-- DELETE THIS TO REMOVE WATERMARKS/DEV NAMES ON TITLE SCREEN -->
 	<define name="DISCORD_ALLOWED" if="desktop || mobile" unless="web" />
